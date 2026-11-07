@@ -11,7 +11,7 @@ _Taller 8 - Integración de Vistas de Arquitectura (Parte 2: aplicación al clie
 _(Equipo ARQUITECH)_
 
 ## 🧠 Descripción general del trabajo
-El objetivo del taller es integrar en un solo tablero las vistas de arquitectura de la Biblioteca Pública Municipal de Cogua - Rubiel Valencia Cossio: negocio (Taller 1), información (Taller 2), aplicaciones (Taller 3), infraestructura (Taller 4) y seguridad (Talleres 5 y 6), más el TO-BE de Aplicaciones y Tecnología del Taller 7. La Parte 1 se trabajó en clase con el caso de FarmApp (`clase/tablero-farmapp.drawio`). Este informe documenta la **Parte 2**: el tablero del cliente real en `tablero-integrado-cliente.drawio`, que muestra a la vez el estado actual (AS-IS) y lo que propone el Taller 7 (NUEVO).
+El objetivo del taller es integrar en un solo tablero las vistas de arquitectura de la Biblioteca Pública Municipal de Cogua - Rubiel Valencia Cossio: negocio (Taller 1), información (Taller 2), aplicaciones (Taller 3), infraestructura (Taller 4) y seguridad (Talleres 5 y 6), más el TO-BE de Aplicaciones y Tecnología del Taller 7. La Parte 1 se trabajó en clase con el caso de FarmApp (`clase/tablero-farmapp.drawio`). Este informe documenta la **Parte 2**: el tablero del cliente real en `tablero-integrado-cliente.drawio.xml`, que muestra a la vez el estado actual (AS-IS) y lo que propone el Taller 7 (NUEVO).
 
 ## 🔧 Proceso de desarrollo
 
@@ -55,9 +55,9 @@ El objetivo del taller es integrar en un solo tablero las vistas de arquitectura
 **Respaldar los archivos (naranja).** Los archivos de eventos, talleres y recursos existen en una sola copia en el PC de la bibliotecaria, el riesgo de mayor severidad del Taller 4. El TO-BE agrega el disco externo (otro medio) y la nube institucional (fuera del sitio) para cumplir el 3-2-1 [4][5]. Es el único hilo que la biblioteca puede cerrar sola, y por eso es un quick win.
 
 ## 📈 Diagrama final entregado
-![Tablero integrado del cliente](./tablero-integrado-cliente.png)
+![Tablero integrado del cliente](./tablero-integrado-cliente.jpg)
 
-- [`tablero-integrado-cliente.drawio`](tablero-integrado-cliente.drawio): tablero de 5 capas con AS-IS y TO-BE del Taller 7 (editable en draw.io).
+- [`tablero-integrado-cliente.drawio.xml`](tablero-integrado-cliente.drawio.xml): tablero de 5 capas con AS-IS y TO-BE del Taller 7 (editable en draw.io).
 
 Convenciones: blanco = AS-IS, verde = NUEVO, ámbar = MODIFICADO, verde con borde punteado = Fase 2 condicionada a Biteca. La línea punteada larga indica que un control protege el flujo, la punteada fina una conexión de Fase 2, y la línea gris sin flecha una relación entre entidades del ERD.
 
